@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+#root{
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  border-color: red;
+}
+
+.app{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  min-height: 60vh;
+  width: 100%;
+  border: 1px solid black  ;
+  box-shadow: 7px 10px 14px grey;
+  padding: 20px;
+
+
+  
+}
+
+.Form-wrap{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+form{
+  padding: 0 20px;
+}
+
+.tdlar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 15px;
+}
+
+.rowlar{
+  width: 500px;
+  text-align: center;
+  background-color: rgba(151, 145, 145, 0.334);
+  margin: 5px;
+}
+
+.hrr{
+  width: 0px;
+  margin-top: 5px;
+}
+
+.table{
+  font-family:sans-serif;
+  font-weight: 500;
+}
+
+form{
+  margin: 10px;
+}
+
+.form-control{
+  width: 38vw;
+  height: 50px;
+}
+
+
